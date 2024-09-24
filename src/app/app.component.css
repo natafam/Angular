@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+  <p *ngIf="showSum">
+    Suma = <b>{{ sum }}</b>
+  </p>
+</div>
+
+<div class="input-container">
+  <input type="number" [(ngModel)]="number1" />
+  <input type="number" [(ngModel)]="number2" />
+</div>
+
+<div class="button-container">
+  <button (click)="calculateSum()">Oblicz sumę</button>
+</div>
